@@ -80,7 +80,7 @@ class BandFileParser:
         data_obj.x_data = buffer_t[0]
 
         if self.energy_unit == EnergyUnit.ElectronVolt:
-            data_obj.y_data = hartree_to_eV(buffer_t[1:])
+            data_obj.y_data = ha2eV_matrix(buffer_t[1:])
         else:
             data_obj.y_data = buffer_t[1:]
         
@@ -156,8 +156,8 @@ class DosFileParser:
         data_obj.x_data = buffer_t[0]
 
         if self.energy_unit == EnergyUnit.ElectronVolt:
-            data_obj.x_data = vector_hartree_to_eV(buffer_t[0])
-            data_obj.y_data = dos_hartree_to_eV(buffer_t[1:])
+            data_obj.x_data = ha2eV_vector(buffer_t[0])
+            data_obj.y_data = ha2eV_state_matrix(buffer_t[1:])
         else:
             data_obj.x_data = buffer_t[0]
             data_obj.y_data = buffer_t[1:]

@@ -11,18 +11,26 @@ import text_style
 type Vector = list[float]
 type Matrix = list[list[float]]
 
+EV2HA_FACTOR = 27.211386
+ROUNDING_FACTOR = 8
 
 def transpose(matrix: Matrix) -> Matrix:
     return [list(row) for row in zip(*matrix)]
 
-def hartree_to_eV(matrix: Matrix) -> Matrix:
-    return [list(map(lambda x: round(x * 27.21138, 8), row)) for row in matrix]
+def ha2eV_value(value: float) -> float:
+    return round(value * EV2HA_FACTOR, ROUNDING_FACTOR)
 
-def vector_hartree_to_eV(vector: Vector) -> Vector:
-    return list(map(lambda x: round(x * 27.21138, 8), vector))
+def ha2eV_state(value: float) -> float:
+    return round(value / EV2HA_FACTOR, ROUNDING_FACTOR)
 
-def dos_hartree_to_eV(matrix: Matrix) -> Matrix:
-    return [list(map(lambda x: round(x / 27.21138, 8), row)) for row in matrix]
+def ha2eV_vector(vector: Vector) -> Vector:
+    return list(map(lambda value: ha2eV_value(value), vector))
+
+def ha2eV_matrix(matrix: Matrix) -> Matrix:
+    return [ha2eV_vector(row) for row in matrix]
+
+def ha2eV_state_matrix(matrix: Matrix) -> Matrix:
+    return [list(map(lambda value: ha2eV_state(value), row)) for row in matrix]
 
 def iter_lines(path: Path) -> Generator[str]:
     with open(path, encoding="utf-8") as f:
