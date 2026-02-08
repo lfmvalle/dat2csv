@@ -7,9 +7,9 @@ from itertools import zip_longest
 import text_style
 
 def get_write_path(path: Path, data_obj: DataObject) -> Path:
-    head: str = "alpha_" if data_obj.spin == SpinOrientation.Alpha else "beta_"
-    body: str = data_obj.data_type.value
-    tail: str = "_ev.csv" if data_obj.energy_unit == EnergyUnit.ElectronVolt else "_ha.csv"
+    head: str = data_obj.data_type.value
+    body: str = "_alpha_" if data_obj.spin == SpinOrientation.Alpha else "_beta_"
+    tail: str = "ev.csv" if data_obj.energy_unit == EnergyUnit.ElectronVolt else "ha.csv"
     
     return Path(path.parent).joinpath(f"{head}{body}{tail}")
 
@@ -60,6 +60,6 @@ def write_csv(path: Path, data_obj: DataObject) -> None:
                     writer.writerow(subrow)
             else:
                 writer.writerow(row)
-    log_write(f"CSV file written: {text_style.BOLDITALIC}{path.name}{text_style.NONE}")
+    log_write(f"CSV file written: {text_style.BOLDITALIC}{path.name}{text_style.NONE} ({data_obj.spin.name} spin)")
 
     
