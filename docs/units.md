@@ -1,7 +1,4 @@
-||||
-| :-: | :-: | :-: |
-[↩ README](../README.md) | [◀ Parsing multiple DAT files](multiple.md) | [Numerical precision ▶](precision.md)|
-||||
+[↩ README](../README.md) | [◀ Parsing multiple DAT files](multiple.md) | [Numerical precision ▶](precision.md)
 
 # Energy unit conversion
 

@@ -27,6 +27,6 @@ Follow [these steps](docs/installation.md) to install the script.
 
 [Energy unit conversion](docs/units.md)
 
-# Other topics
+## Other topics
 
 [Numerical precision](docs/precision.md)

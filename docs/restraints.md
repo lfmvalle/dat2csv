@@ -1,7 +1,4 @@
-||||
-| :-: | :-: | :-: |
-| [↩ README](../README.md) | [◀ Installing the script ](installation.md) | [ Parsing a DAT file ▶](single.md) |
-||||
+[↩ README](../README.md) | [◀ Installing the script ](installation.md) | [ Parsing a DAT file ▶](single.md)
 
 # File name restraints
 

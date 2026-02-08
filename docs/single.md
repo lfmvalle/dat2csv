@@ -1,7 +1,4 @@
-||||
-| :-: | :-: | :-: |
 [↩ README](../README.md) | [◀ File name restraints ](restraints.md) | [ Parsing multiple DAT files ▶](multiple.md)
-||||
 
 # Parsing a DAT file
 

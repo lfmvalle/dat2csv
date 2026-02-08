@@ -1,7 +1,4 @@
-||||
-| :-: | :-: | :-: |
 [↩ README](../README.md) | [◀ Parsing a DAT file](single.md) | [ Energy unit conversion ▶](units.md)
-||||
 
 # Parsing multiple DAT files
 

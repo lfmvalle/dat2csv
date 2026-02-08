@@ -1,7 +1,4 @@
-|||
-| :-: | :-: |
 [↩ README](../README.md) | [◀ Energy unit conversion](units.md)
-|||
 
 # Numerical precision
 

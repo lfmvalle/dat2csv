@@ -1,8 +1,4 @@
-|||
-| :-: | :-: |
-| [↩ README](../README.md) | [File name restraints ▶](restraints.md) |
-|||
-
+[↩ README](../README.md) | [File name restraints ▶](restraints.md)
 
 # Installing dat2csv
 
