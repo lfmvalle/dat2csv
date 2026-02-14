@@ -1,4 +1,3 @@
-from typing import Generator
 from pathlib import Path
 import sys
 
@@ -32,7 +31,7 @@ def ha2eV_matrix(matrix: Matrix) -> Matrix:
 def ha2eV_state_matrix(matrix: Matrix) -> Matrix:
     return [list(map(lambda value: ha2eV_state(value), row)) for row in matrix]
 
-def iter_lines(path: Path) -> Generator[str]:
+def iter_lines(path: Path):
     with open(path, encoding="utf-8") as f:
         for line in f:
             yield line.rstrip("\n")
