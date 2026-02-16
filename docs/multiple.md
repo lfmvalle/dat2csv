@@ -1,4 +1,14 @@
-[↩ README](../README.md) | [◀ Parsing a DAT file](single.md) | [ Energy unit conversion ▶](units.md)
+<p align="center">
+  <a href="../README.md">
+    <img src="https://img.shields.io/badge/↩-README-white?style=for-the-badge">
+  </a>
+  <a href="single.md">
+    <img src="https://img.shields.io/badge/◀ - Parsing a dat file-blue?style=for-the-badge">
+  </a>
+  <a href="units.md">
+    <img src="https://img.shields.io/badge/▶ - Energy unit conversion-blue?style=for-the-badge">
+  </a>
+</p>
 
 # Parsing multiple DAT files
 

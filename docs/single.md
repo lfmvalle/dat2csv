@@ -1,4 +1,14 @@
-[↩ README](../README.md) | [◀ File name restraints ](restraints.md) | [ Parsing multiple DAT files ▶](multiple.md)
+<p align="center">
+  <a href="../README.md">
+    <img src="https://img.shields.io/badge/↩-README-white?style=for-the-badge">
+  </a>
+  <a href="restraints.md">
+    <img src="https://img.shields.io/badge/◀ - File name restraints-blue?style=for-the-badge">
+  </a>
+  <a href="multiple.md">
+    <img src="https://img.shields.io/badge/▶ - Parsing multiple DAT files-blue?style=for-the-badge">
+  </a>
+</p>
 
 # Parsing a DAT file
 

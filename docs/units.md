@@ -1,4 +1,14 @@
-[↩ README](../README.md) | [◀ Parsing multiple DAT files](multiple.md) | [Numerical precision ▶](precision.md)
+<p align="center">
+  <a href="../README.md">
+    <img src="https://img.shields.io/badge/↩-README-white?style=for-the-badge">
+  </a>
+  <a href="multiple.md">
+    <img src="https://img.shields.io/badge/◀ - Parsing multiple DAT files-blue?style=for-the-badge">
+  </a>
+  <a href="precision.md">
+    <img src="https://img.shields.io/badge/▶ - Numerical precision-blue?style=for-the-badge">
+  </a>
+</p>
 
 # Energy unit conversion
 
@@ -13,7 +23,7 @@ All these have the same behavior: <br>
 
 Have in mind that the energy unit will be applied to **ALL FILES** in a [multiple file parsing](multiple.md).
 
-The Hartree to eV conversion factor used in the script is `27.211386` (see: [NIST / 2022 CODATA recommended values](https://physics.nist.gov/cgi-bin/cuu/Value?hrev)).
+The Hartree to eV conversion factor used in the script is `27.211386` (from: [NIST / 2022 CODATA recommended values](https://physics.nist.gov/cgi-bin/cuu/Value?hrev)).
 
 For a more descriptive view about the unit conversion, see the table below:
 

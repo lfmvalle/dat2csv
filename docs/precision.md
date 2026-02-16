@@ -1,4 +1,11 @@
-[↩ README](../README.md) | [◀ Energy unit conversion](units.md)
+<p align="center">
+  <a href="../README.md">
+    <img src="https://img.shields.io/badge/↩-README-white?style=for-the-badge">
+  </a>
+  <a href="units.md">
+    <img src="https://img.shields.io/badge/◀ - Energy unit conversion-blue?style=for-the-badge">
+  </a>
+</p>
 
 # Numerical precision
 

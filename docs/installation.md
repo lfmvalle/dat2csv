@@ -1,10 +1,19 @@
-[↩ README](../README.md) | [File name restraints ▶](restraints.md)
+<p align="center">
+  <a href="../README.md">
+    <img src="https://img.shields.io/badge/↩-README-white?style=for-the-badge">
+  </a>
+  <a href="restraints.md">
+    <img src="https://img.shields.io/badge/▶ - File name restraints-blue?style=for-the-badge">
+  </a>
+</p>
 
 # Installing dat2csv
 
 ## 1. Requirements
 
-This script requires `Python 3.14`. Check the version of your Python installation with `$ python --version`. <br>
+[![Status](https://img.shields.io/badge/Python-3.14.0-blue?logo=python)](https://www.python.org/downloads/)
+
+Check the version of your Python installation with `$ python --version`. <br>
 It may work with older versions, but you'll have to manually edit the scripts to do so. Do it at **your own risk**.
 
 ## 2. Installation steps

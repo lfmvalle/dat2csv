@@ -1,4 +1,14 @@
-[↩ README](../README.md) | [◀ Installing the script ](installation.md) | [ Parsing a DAT file ▶](single.md)
+<p align="center">
+  <a href="../README.md">
+    <img src="https://img.shields.io/badge/↩-README-white?style=for-the-badge">
+  </a>
+  <a href="installation.md">
+    <img src="https://img.shields.io/badge/◀ - Installation-blue?style=for-the-badge">
+  </a>
+  <a href="single.md">
+    <img src="https://img.shields.io/badge/▶ - Parsing a DAT file-blue?style=for-the-badge">
+  </a>
+</p>
 
 # File name restraints
 
